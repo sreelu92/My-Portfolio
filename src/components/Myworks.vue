@@ -88,7 +88,7 @@ export default {
     }
     #displayworks {
       .workimg {
-        width: 70%;
+        width: 60%;
       }
       .worklink {
         font-size: xx-large;

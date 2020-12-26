@@ -8,7 +8,7 @@
           <img
             id="footemail"
             class="footclass"
-            src="https://assets.stickpng.com/images/584856b4e0bb315b0f7675ac.png"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQy9mUgcoDiy6zxT-FHb0Rl09UoLycICmPfpA&usqp=CAU"
             alt="email icon"
           />
           <p id="ptagone">sreelu.ph@gmail.com</p>
@@ -17,7 +17,7 @@
           <img
             id="footlinkedin"
             class="footclass"
-            src="https://img1.pnghut.com/24/16/7/WkRNFJRqTU/icon-design-resume-brand-social-networking-service-employment.jpg"
+            src="https://cdn.iconscout.com/icon/free/png-256/linkedin-1722379-1466165.png"
             alt="linkedn icon"
           />
           <a
@@ -76,6 +76,8 @@ export default {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
       row-gap: 2vh;
+      justify-items: center;
+      align-items: center;
 
       // .footclass{
       //     width: 15%;
@@ -85,18 +87,22 @@ export default {
         display: inline-flex;
         margin-left: 19vw;
         #footemail {
-          width: 15%;
+          width: 14%;
+          height: 5vh;
+          margin-top: 2vh;
         }
       }
       #two {
         display: inline-flex;
         margin-left: 20vw;
         #footlinkedin {
-          width: 13%;
+          width: 10%;
+          height: 4vh;
         }
         #linkedin {
           text-decoration: none;
           color: black;
+          margin-top: 1vh;
         }
       }
       #three {
@@ -132,19 +138,32 @@ export default {
       }
 
       #footcontent {
-        grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+          grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+
 
         #one {
           #ptagone {
             font-size: xx-large;
           }
+          #footemail{
+            margin-left: -9vw;
+          }
         }
         #two {
+          #footlinkedin{
+            width: 22%;
+            height: 7vh;
+            margin-left: -3vw;
+          }
           #linkedin {
             font-size: xx-large;
+            margin-top: 2vh;
           }
         }
         #three {
+          #footphone{
+            margin-left: 10vw;
+          }
           #phonenumber {
             font-size: xx-large;
           }
@@ -152,6 +171,7 @@ export default {
         #four {
           #footgit {
             width: 9%;
+            margin-left: 18vw;
           }
           #github {
             font-size: xx-large;
@@ -165,41 +185,54 @@ export default {
       width: 95%;
 
       #footcontent {
+          grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+
         #one {
+            margin-left: 12vw;
+
           #footemail {
-            width: 18%;
+            width: 30%;
           }
            #ptagone {
-            font-size: x-large;
+            font-size:large;
+            margin-top: 3vh;
           }
         }
         #two{
+            margin-left: 8vw;
+
           #footlinkedin{
-            width: 15%;
-            height: 8vh;
+            width: 20%;
+            height: 6vh;
           }
            #linkedin {
-            font-size: x-large;
+            font-size: large;
+            margin-top:2vh;
           }
 
         }
         #three {
+          margin-top: 2vh;
+            margin-left: -6vw;
+
           #footphone{
-            width: 6%;
-            margin-left: 20vw;
+            width:8%;
+            height:4vh;
+
           }
           #phonenumber {
-            font-size: x-large;
+            font-size: large;
           }
         }
         #four {
           #footgit {
             height: 6vh;
-            width: 8%;
-            margin-left: 20vw;
+            width: 15%;
+            margin-left: 3vw;
           }
           #github {
-            font-size: x-large;
+            font-size: large;
+            margin-top: 2vh;
           }
         }
       

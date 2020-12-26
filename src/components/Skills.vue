@@ -42,7 +42,7 @@ export default {
 
 <style lang="scss" scoped>
 #skillcontainer {
-  width: 90vw;
+  width: 90%;
   min-height: 40vh;
   background-color: white;
   margin-left: 2.5vw;
@@ -56,9 +56,11 @@ export default {
   }
   #skilldiv {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     row-gap: 3vh;
     margin-top: 6vh;
+    justify-items: center;
+    align-items: center;
     #skilldivone {
       width: 40vw;
       background-color: wheat;
@@ -88,7 +90,7 @@ export default {
             font-size:2.5em;
         }
         #skilldiv{
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
             .fronth3{
                 font-size: xx-large;
             }
@@ -102,7 +104,7 @@ export default {
 
 
 }
- @media only screen and(min-width:1020px) {
+ @media only screen and(min-width:900px) {
      #skillcontainer{
          width: 95%;
          #skilldiv{
