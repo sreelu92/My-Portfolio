@@ -43,7 +43,7 @@
             src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
             alt="github icon"
           />
-          <a id="github" href="tel:(587) 937-4881">Github</a>
+          <a id="github" href="https://github.com/sreelu92">Github</a>
         </div>
       </div>
     </div>
@@ -222,6 +222,7 @@ export default {
           }
           #phonenumber {
             font-size: large;
+            pointer-events: none;
           }
         }
         #four {
@@ -233,6 +234,8 @@ export default {
           #github {
             font-size: large;
             margin-top: 2vh;
+            
+            
           }
         }
       
